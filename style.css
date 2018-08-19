@@ -17,10 +17,7 @@ html, body {
   box-shadow: 1rem 0 0 rgba(255, 255, 255, 0.8), -1rem 0 0 rgba(255, 255, 255, 0.8);
 }
 
-.services__title,
-.programs__title,
-.video-play__title,
-.testimonials__title {
+.section__title {
   letter-spacing: 2px;
 }
 
@@ -71,4 +68,11 @@ iframe {
   .main-footer__container {
     flex-direction: column;
   }  
+}
+
+@media (max-width: 576px) {
+  .section__title {
+    font-size: 2rem; 
+    letter-spacing: 0px;
+  }
 }
