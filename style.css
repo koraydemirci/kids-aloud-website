@@ -1,35 +1,48 @@
 
+body {
+  overflow-x: hidden;
+}
+
+.main-nav {
+  /* background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); */
+  /* background-color: #833471; */
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+;
+}
+
 .carousel__title {
   background: rgba(255, 255, 255, 0.8);
   letter-spacing: 1px;
   word-spacing: 10px;
-}
-
-.carousel-item {
-  height: 80vh;
-  overflow: hidden;
+  box-shadow: 1rem 0 0 rgba(255, 255, 255, 0.8), -1rem 0 0 rgba(255, 255, 255, 0.8);
 }
 
 .services__title,
-.programs__title {
+.programs__title,
+.video-play__title,
+.testimonials__title {
   letter-spacing: 2px;
 }
 
 .learning-is-fun {
+  margin-top: -1rem;
   height: 700px;
   background-attachment: fixed;
-  background: url(../img/learn-background.jpg);
+  background: url(img/learn-background.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .programs__inner {
-  background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .programs__carousel {
-  width: 100%;
-  margin: auto;
+  width: 90%;
 }
 
 .programs__card {
@@ -41,10 +54,22 @@ iframe {
   height: 320px;
 }
 
-footer {
-  background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); 
+.testimonials__background {
+  background: url('img/abc-3523453_1920.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.testimonials__carousel {
+  background: #fff;
 }
 
-.video-play__title {
-  letter-spacing: 1px;
+.main-footer {
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+@media (max-width: 992px) {
+  .video-play__title {
+    margin-bottom: 1rem !important;
+  }
 }
