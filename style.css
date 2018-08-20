@@ -1,5 +1,5 @@
+/* SHARED */
 html, body {
-  margin: 0; 
   height: 100%; 
   overflow-x: hidden
 }
@@ -10,11 +10,8 @@ html, body {
   background: linear-gradient(to right, #ad5389, #3c1053);
 }
 
-.carousel__title {
-  background: rgba(255, 255, 255, 0.8);
-  letter-spacing: 1px;
-  word-spacing: 10px;
-  box-shadow: 1rem 0 0 rgba(255, 255, 255, 0.8), -1rem 0 0 rgba(255, 255, 255, 0.8);
+.main-footer {
+  background: linear-gradient(to right, #ad5389, #3c1053); 
 }
 
 .section__title {
@@ -22,11 +19,19 @@ html, body {
   word-spacing: 5px
 }
 
+/* INDEX */
+.carousel__title {
+  background: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  box-shadow: 1rem 0 0 rgba(255, 255, 255, 0.8), -1rem 0 0 rgba(255, 255, 255, 0.8);
+}
+
 .learning-is-fun {
   margin-top: -1rem;
   height: 700px;
   background-attachment: fixed;
-  background: url(img/learn-background.jpg);
+  background: url(img/index/learn-background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -49,7 +54,7 @@ iframe {
 }
 
 .testimonials__background {
-  background: url('img/testimonials-background.jpg');
+  background: url('img/index/testimonials-background.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -57,10 +62,12 @@ iframe {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.main-footer {
-  background: linear-gradient(to right, #ad5389, #3c1053); 
+/* ILETISIM */
+.gmap {
+  height: 500px;
 }
 
+/* MEDIA QUERIES */
 @media (max-width: 992px) {
   .video-play__title {
     margin-bottom: 1rem !important;
@@ -78,11 +85,6 @@ iframe {
     word-spacing: 2px
   }
 }
-
-
-
-
-
 
 .gmap {
   height: 500px;
