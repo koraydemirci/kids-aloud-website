@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="menu">
   <!-- HEADER  -->
   <header class="mb-4">
     <!-- Main Navigation-->
@@ -39,8 +39,8 @@
                 <a class="dropdown-item text-success" href="okulumuz.html#fiziksel-ozellikler">FİZİKSEL ÖZELLİKLER</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            <li class="nav-item dropdown ml-1">
+              <a class="nav-link dropdown-toggle" href="egitim.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 EĞİTİM
               </a>
@@ -51,23 +51,21 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            <li class="nav-item dropdown active ml-1">
+              <a class="nav-link dropdown-toggle" href="duyurular.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
                 DUYURULAR
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">AYLIK PROGRAM</a>
-                <a class="dropdown-item" href="#">YEMEK LİSTESİ</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item text-danger" href="duyurular.html">YEMEK LİSTESİ</a>
+                <a class="dropdown-item text-info" href="duyurular.html#activities-calendar">AYLIK PROGRAM</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">GALERİ</a>
+            <li class="nav-item ml-1">
+              <a class="nav-link" href="galeri.html">GALERİ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="iletisim.html">İLETİŞİM</a>
+              <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
             </li>
           </ul>
         </div>
@@ -75,7 +73,27 @@
     </nav>
   </header>
 
+  <!-- MENU -->
+  <section class="container mb-4">
+    <h2 class="display-4 mb-3 text-center section__title">
+      <span class="text-success">Y</span><span class="text-danger">E</span><span class="text-primary">M</span><span class="text-success">E</span><span
+        class="text-info">K</span> <span class="text-danger">L</span><span class="text-success">İ</span><span class="text-danger">S</span><span class="text-primary">T</span><span class="text-success">E</span><span
+          class="text-info">S</span><span class="text-danger">İ</span>
+    </h2>
+    <p class="lead">Yemek listesini indirmek için <a href="#">tıklayınız</a></p>
+    <img class="d-bloc w-100 mx-auto" src="img/announcements/menu.png" alt="school menu">
+  </section>
 
+  <!-- ACTIVITIES CALENDAR-->
+  <section class="container mb-5" id="activities-calendar">
+    <h2 class="display-4 mb-3 text-center section__title">
+      <span class="text-success">E</span><span class="text-danger">T</span><span class="text-primary">K</span><span class="text-success">İ</span><span
+        class="text-info">N</span><span class="text-danger">L</span><span class="text-success">İ</span><span class="text-danger">K</span> <span
+        class="text-primary">T</span><span class="text-success">A</span><span class="text-info">K</span><span class="text-danger">V</span><span class="text-success">İ</span><span class="text-danger">M</span><span class="text-info">İ</span>
+    </h2>
+    <p class="lead">Etkinlik takvimini indirmek için <a href="#">tıklayınız</a></p>
+    <img class="d-block w-100 mx-auto" src="img/announcements/menu.png" alt="activities calendar">
+  </section>
 
   <!-- MAIN-FOOTER -->
   <footer class="pt-2 main-footer text-white">
