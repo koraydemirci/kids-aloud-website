@@ -18,7 +18,7 @@
   <!-- HEADER  -->
   <header class="mb-4">
     <!-- Main Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-success main-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="img/logo-black.png" alt="okul logosu"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -58,7 +58,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item text-danger" href="duyurular.html">YEMEK LİSTESİ</a>
-                <a class="dropdown-item text-info" href="duyurular.html#activities-calendar">AYLIK PROGRAM</a>
+                <a class="dropdown-item text-info" href="duyurular.html#activities-calendar">ETKİNLİK TAKVİMİ</a>
               </div>
             </li>
             <li class="nav-item active">
@@ -75,32 +75,36 @@
 
   <section class="container">
     <p class="text-center mb-4">
-      <a class="btn btn-success btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="multiCollapse1">SINIFLARIMIZ</a>
-      <a class="btn btn-primary btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="multiCollapse2">OYUN ALANLARIMIZ</a>
-      <a class="btn btn-danger btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false" aria-controls="multiCollapse3">BAHÇEMİZ</a>
-      <a class="btn btn-info btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="multiCollapse4">ETKİNLİKLERİMİZ</a>    
+      <a class="btn btn-success btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false"
+        aria-controls="multiCollapse1">SINIFLARIMIZ</a>
+      <a class="btn btn-primary btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false"
+        aria-controls="multiCollapse2">OYUN ALANLARIMIZ</a>
+      <a class="btn btn-danger btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="false"
+        aria-controls="multiCollapse3">BAHÇEMİZ</a>
+      <a class="btn btn-info btn-lg mr-3 mb-2 gallery__link" data-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false"
+        aria-controls="multiCollapse4">ETKİNLİKLERİMİZ</a>
     </p>
 
-  <!-- Classes -->
+    <!-- Classes -->
     <div class="collapse multi-collapse mb-5 show gallery__section" id="multiCollapse1">
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
-          <a href="img/gallery/classes-1.jpg" data-toggle="lightbox"  data-gallery="example-gallery">
+          <a href="img/gallery/classes-1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
             <img src="img/gallery/classes-1.jpg" class="img-fluid">
           </a>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
-          <a href="img/gallery/classes-2.jpg" data-toggle="lightbox"  data-gallery="example-gallery">
+          <a href="img/gallery/classes-2.jpg" data-toggle="lightbox" data-gallery="example-gallery">
             <img src="img/gallery/classes-2.jpg" class="img-fluid">
           </a>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
-          <a href="img/gallery/classes-3.jpg" data-toggle="lightbox"  data-gallery="example-gallery">
+          <a href="img/gallery/classes-3.jpg" data-toggle="lightbox" data-gallery="example-gallery">
             <img src="img/gallery/classes-3.jpg" class="img-fluid">
           </a>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
-          <a href="img/gallery/classes-4.jpg" data-toggle="lightbox"  data-gallery="example-gallery">
+          <a href="img/gallery/classes-4.jpg" data-toggle="lightbox" data-gallery="example-gallery">
             <img src="img/gallery/classes-4.jpg" class="img-fluid">
           </a>
         </div>
@@ -131,7 +135,7 @@
         </div>
       </div>
     </div>
-  <!-- Games -->
+    <!-- Games -->
     <div class="collapse multi-collapse mb-5 gallery__section" id="multiCollapse2">
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
@@ -181,7 +185,7 @@
         </div>
       </div>
     </div>
-  <!-- Garden -->
+    <!-- Garden -->
     <div class="collapse multi-collapse mb-5 gallery__section" id="multiCollapse3">
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4">
@@ -313,8 +317,8 @@
 
     // Ligtbox
     $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
+      event.preventDefault();
+      $(this).ekkoLightbox();
     });
 
     // Gallery sections toggle
@@ -326,12 +330,12 @@
 
     for (var i = 0; i < links.length; i++) {
       console.log(links[i]);
-      links[i].addEventListener('click', function() {
+      links[i].addEventListener('click', function () {
         gallerySection.forEach(el => el.classList.remove('show'));
         gallerySection[i].classList.add('show');
       });
     }
   </script>
 </body>
-</html>
 
+</html>

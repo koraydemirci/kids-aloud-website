@@ -4,6 +4,9 @@ html, body {
   overflow-x: hidden
 }
 
+body {
+  position: relative;
+}
 .main-nav {
   /* background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); */
   /* background-color: #833471; */
@@ -20,6 +23,26 @@ html, body {
 }
 
 /* INDEX */
+
+.carousel__item--1 {
+  background: url('img/index/main-carousel-1.jpg');
+}
+
+.carousel__item--2 {
+  background: url('img/index/main-carousel-2.jpg');
+}
+
+.carousel__item--3 {
+  background: url('img/index/main-carousel-3.jpg');
+}
+
+.carousel-item {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .carousel__title {
   background: rgba(255, 255, 255, 0.8);
   letter-spacing: 1px;
@@ -69,6 +92,14 @@ iframe {
 
 /* MEDIA QUERIES */
 @media (max-width: 992px) {
+  .carousel-item {
+    height: 60vh;
+  }
+
+  .services {
+    padding-top: 2rem !important;
+  }
+
   .video-play__title {
     margin-bottom: 1rem !important;
   }
@@ -79,6 +110,15 @@ iframe {
 }
 
 @media (max-width: 576px) {
+
+  .carousel-item {
+    height: 40vh;
+  }
+
+  .services {
+    padding-top: 1.5rem !important;
+  }
+
   .section__title {
     font-size: 2rem; 
     letter-spacing: 0px;

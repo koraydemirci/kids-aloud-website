@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +16,10 @@
 </head>
 
 <body>
- <!-- HEADER  -->
-  <!-- Main Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-success main-nav">
+  <!-- HEADER  -->
+  <header>
+    <!-- Main Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="img/logo-black.png" alt="okul logosu"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -57,7 +59,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item text-danger" href="duyurular.html">YEMEK LİSTESİ</a>
-                <a class="dropdown-item text-info" href="duyurular.html#activities-calendar">AYLIK PROGRAM</a>
+                <a class="dropdown-item text-info" href="duyurular.html#activities-calendar">ETKİNLİK TAKVİMİ</a>
               </div>
             </li>
             <li class="nav-item">
@@ -70,46 +72,50 @@
         </div>
       </div>
     </nav>
-  <!-- Carousel  -->
+    <!-- Carousel  -->
     <div id="carouselControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="img-fluid" src="img/index/main-carousel-1.jpg" alt="First slide">
+        <div class="carousel-item carousel__item--1 active">
+          <!-- <img class="img-fluid" src="img/index/main-carousel-1.jpg" alt="First slide"> -->
           <div class="carousel-caption d-none mb-5 d-md-block text-right">
             <h1 class="display-4 d-inline carousel__title">
-              <span class="text-success">H</span><span class="text-danger">O</span><span class="text-primary">Ş</span><span class="text-success">G</span><span
-                class="text-info">E</span><span class="text-danger">L</span><span class="text-success">D</span><span class="text-danger">İ</span><span
-                class="text-primary">N</span><span class="text-danger">İ</span><span class="text-success">Z</span>
+              <span class="text-success">H</span><span class="text-danger">O</span><span class="text-primary">Ş</span><span
+                class="text-success">G</span><span class="text-info">E</span><span class="text-danger">L</span><span class="text-success">D</span><span
+                class="text-danger">İ</span><span class="text-primary">N</span><span class="text-danger">İ</span><span class="text-success">Z</span>
             </h1>
           </div>
         </div>
-        <div class="carousel-item carousel__item">
-          <img class="img-fluid" src="img/index/main-carousel-2.jpg" alt="Second slide">
+        <div class="carousel-item carousel__item--2">
+          <!-- <img class="img-fluid" src="img/index/main-carousel-2.jpg" alt="Second slide"> -->
           <div class="carousel-caption d-none mb-5 d-md-block text-right">
             <h1 class="display-4 d-inline py-1 carousel__title">
-                      <span class="text-success">E</span><span class="text-danger">R</span><span class="text-primary">K</span><span class="text-danger">E</span><span
-                        class="text-info">N</span> <span class="text-danger">K</span><span class="text-success">A</span><span class="text-danger">Y</span><span
-                        class="text-primary">I</span><span class="text-danger">T</span> <span class="text-success">İ</span><span class="text-danger">N</span></span><span
-                        class="text-danger">D</span><span class="text-info"></span><span class="text-danger">İ</span><span class="text-success">R</span><span
-                        class="text-danger">İ</span><span class="text-primary">M</span><span class="text-danger">L</span><span class="text-success">E</span><span
-                        class="text-info">R</span><span class="text-success">İ</span><span class="text-danger">M</span><span class="text-primary">İ</span><span
-                        class="text-danger">Z</span> <span class="text-success">D</span><span class="text-info">E</span><span class="text-success">V</span><span
-                        class="text-danger">A</span><span class="text-primary">M</span> <span class="text-danger">E</span><span class="text-success">D</span><span class="text-info">İ</span><span class="text-success">Y</span><span class="text-danger">O</span><span class="text-primary">R</span>
+              <span class="text-success">E</span><span class="text-danger">R</span><span class="text-primary">K</span><span
+                class="text-danger">E</span><span class="text-info">N</span> <span class="text-danger">K</span><span class="text-success">A</span><span
+                class="text-danger">Y</span><span class="text-primary">I</span><span class="text-danger">T</span> <span class="text-success">İ</span><span
+                class="text-danger">N</span></span><span class="text-danger">D</span><span class="text-info"></span><span class="text-danger">İ</span><span
+                class="text-success">R</span><span class="text-danger">İ</span><span class="text-primary">M</span><span class="text-danger">L</span><span
+                class="text-success">E</span><span class="text-info">R</span><span class="text-success">İ</span><span class="text-danger">M</span><span
+                class="text-primary">İ</span><span class="text-danger">Z</span> <span class="text-success">D</span><span class="text-info">E</span><span
+                class="text-success">V</span><span class="text-danger">A</span><span class="text-primary">M</span> <span class="text-danger">E</span><span
+                class="text-success">D</span><span class="text-info">İ</span><span class="text-success">Y</span><span class="text-danger">O</span><span
+                class="text-primary">R</span>
             </h1>
           </div>
         </div>
-        <div class="carousel-item carousel__item">
-          <img class="img-fluid" src="img/index/main-carousel-3.jpg" alt="Third slide">
+        <div class="carousel-item carousel__item--3">
+          <!-- <img class="img-fluid" src="img/index/main-carousel-3.jpg" alt="Third slide"> -->
           <div class="carousel-caption d-none mb-5 d-md-block text-right">
-            <h1 class="display-4 d-inline py-1 carousel__title"><span class="text-success">G</span><span class="text-danger">E</span><span class="text-primary">L</span><span class="text-danger">E</span><span
-              class="text-info">C</span><span class="text-danger">E</span><span class="text-danger">Ğ</span><span class="text-success">İ</span><span class="text-danger">N</span>
-            <span class="text-primary">Ç</span><span class="text-danger">O</span><span class="text-success">C</span><span class="text-danger">U</span></span><span
-              class="text-danger">K</span><span class="text-info"></span><span class="text-danger">L</span><span class="text-success">A</span><span
-              class="text-danger">R</span><span class="text-primary">I</span><span class="text-danger">N</span><span class="text-success">I</span>
-            <span class="text-info">Y</span><span class="text-success">E</span><span class="text-danger">T</span><span class="text-primary">İ</span><span
-              class="text-danger">Ş</span><span class="text-success">T</span><span class="text-info">İ</span><span class="text-success">R</span><span
-              class="text-danger">İ</span><span class="text-primary">Y</span><span class="text-danger">O</span><span class="text-success">R</span><span
-              class="text-danger">U</span><span class="text-success">Z</span></h1>
+            <h1 class="display-4 d-inline py-1 carousel__title"><span class="text-success">G</span><span class="text-danger">E</span><span
+                class="text-primary">L</span><span class="text-danger">E</span><span class="text-info">C</span><span class="text-danger">E</span><span
+                class="text-danger">Ğ</span><span class="text-success">İ</span><span class="text-danger">N</span>
+              <span class="text-primary">Ç</span><span class="text-danger">O</span><span class="text-success">C</span><span
+                class="text-danger">U</span></span><span class="text-danger">K</span><span class="text-info"></span><span class="text-danger">L</span><span
+                class="text-success">A</span><span class="text-danger">R</span><span class="text-primary">I</span><span class="text-danger">N</span><span
+                class="text-success">I</span>
+              <span class="text-info">Y</span><span class="text-success">E</span><span class="text-danger">T</span><span
+                class="text-primary">İ</span><span class="text-danger">Ş</span><span class="text-success">T</span><span class="text-info">İ</span><span
+                class="text-success">R</span><span class="text-danger">İ</span><span class="text-primary">Y</span><span class="text-danger">O</span><span
+                class="text-success">R</span><span class="text-danger">U</span><span class="text-success">Z</span></h1>
           </div>
         </div>
       </div>
@@ -124,24 +130,28 @@
     </div>
   </header>
 
-
-<!-- SERVICES-->
-  <section class="pt-3 services">
+  <!-- SERVICES-->
+  <section class="pt-5 services">
     <div class="container">
       <h2 class="display-4 mb-3 text-center text-success section__title">
         <span class="text-success">M</span><span class="text-danger">İ</span><span class="text-primary">S</span><span class="text-success">Y</span><span
           class="text-info">O</span><span class="text-danger">N</span><span class="text-success">U</span><span class="text-danger">M</span><span
           class="text-primary">U</span><span class="text-danger">Z</span>
       </h2>
-      <p class="lead w-75 m-auto text-center">Ülkemizde uzun yıllardır eğitimin kaliteli adresi olan İngiliz Kültür Yabancı Dil Kursları, 3-6 yaş grubu çocuklarına Kids Aloud İngilizce Anaokulları adı ile hizmet vermektedir. Kids Aloud İngilizce Anaokulları, çocukların en temel özelliği olan merak duygusunu ve hayal dünyalarını geliştirir. Çocuklar için hazırlanmış binalarda, çocuk güvenliğini maksimum dikkate alarak özel yöntemlerle İngilizce öğretir. Çocukların kişisel gelişimlerini destekleyen aktivite ve
-      programlar sunar.</p>
+      <p class="lead w-75 m-auto text-center">Ülkemizde uzun yıllardır eğitimin kaliteli adresi olan İngiliz Kültür Yabancı
+        Dil Kursları, 3-6 yaş grubu çocuklarına Kids Aloud İngilizce Anaokulları adı ile hizmet vermektedir. Kids Aloud İngilizce
+        Anaokulları, çocukların en temel özelliği olan merak duygusunu ve hayal dünyalarını geliştirir. Çocuklar için hazırlanmış
+        binalarda, çocuk güvenliğini maksimum dikkate alarak özel yöntemlerle İngilizce öğretir. Çocukların kişisel gelişimlerini
+        destekleyen aktivite ve programlar sunar.</p>
       <div class="row mt-5">
         <div class="col-sm-6 col-lg-3 mb-3">
           <div class="card border-success">
             <img class="card-img-top" src="img/index/services-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-success">ÇİFT ANADİL</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+              </p>
             </div>
           </div>
         </div>
@@ -150,7 +160,9 @@
             <img class="card-img-top" src="img/index/services-2.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-danger">BEYİN TEMELLİ ÖĞRENME</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+              </p>
             </div>
           </div>
         </div>
@@ -159,7 +171,9 @@
             <img class="card-img-top" src="img/index/services-3.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-warning">SAĞLIKLI BESLENME</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+              </p>
             </div>
           </div>
         </div>
@@ -167,8 +181,10 @@
           <div class="card border-info">
             <img class="card-img-top" src="img/index/services-4.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title text-info">HİJYEN</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title text-info">TEMİZLİK</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.
+              </p>
             </div>
           </div>
         </div>
@@ -176,18 +192,18 @@
     </div>
   </section>
 
-<!-- LEARNING IMAGE -->
+  <!-- LEARNING IMAGE -->
   <section class="learning-is-fun mb-5">
 
   </section>
-        
-<!-- PROGRAMS -->
+
+  <!-- PROGRAMS -->
   <section class=" mb-3 py-3 programs">
-      <h2 class="display-4 mb-3 text-center section__title">
-        <span class="text-success">B</span><span class="text-danger">R</span><span class="text-primary">A</span><span class="text-danger">N</span><span
-          class="text-info">Ş</span><span class="text-danger">L</span><span class="text-success">A</span><span class="text-danger">R</span><span
-          class="text-primary">I</span><span class="text-danger">M</span><span class="text-success">I</span><span class="text-danger">Z</span>
-      </h2>
+    <h2 class="display-4 mb-3 text-center section__title">
+      <span class="text-success">B</span><span class="text-danger">R</span><span class="text-primary">A</span><span class="text-danger">N</span><span
+        class="text-info">Ş</span><span class="text-danger">L</span><span class="text-success">A</span><span class="text-danger">R</span><span
+        class="text-primary">I</span><span class="text-danger">M</span><span class="text-success">I</span><span class="text-danger">Z</span>
+    </h2>
     <div class="py-5 programs__inner">
       <div class="container">
         <div class="programs__carousel d-block mx-auto pl-4">
@@ -252,21 +268,22 @@
     </div>
   </section>
 
-<!-- VIDEO-PLAY   -->
+  <!-- VIDEO-PLAY   -->
   <section class="video-play py-4 mb-4">
     <div class="container">
       <h2 class="display-4 mb-3 text-center section__title">
         <span class="text-success">İ</span><span class="text-danger">N</span><span class="text-primary">G</span><span class="text-danger">İ</span><span
           class="text-info">L</span><span class="text-danger">İ</span><span class="text-success">Z</span><span class="text-danger">C</span><span
-          class="text-primary">E</span> <span class="text-danger">E</span><span class="text-success">Ğ</span><span class="text-danger">İ</span><span class="text-primary">T</span><span class="text-danger">İ</span><span class="text-info">M</span>
+          class="text-primary">E</span> <span class="text-danger">E</span><span class="text-success">Ğ</span><span class="text-danger">İ</span><span
+          class="text-primary">T</span><span class="text-danger">İ</span><span class="text-info">M</span>
       </h2>
       <div class="row">
         <div class="col-lg-6 mb-5 d-flex">
-           <p class="lead m-0 mr-5 text-center align-self-center">
-            Kids Aloud İngilizce Anaokulları, 3-6 yaş grubu çocuklara anaokulunu bitireceği döneme kadar B1 seviyede İngilizce’yi hiç unutmayacağı biçimde öğretmeyi temel amaç olarak belirlemiştir. Anaokullarımız
-            da Avrupa Birliği normlarına uygun İngilizce eğitimi verilmekte ve bu eğitim süreci çocuklarımıza verilen Avrupa Dil Portfolyosu
-            ile belgelenmektedir.
-           </p>
+          <p class="lead m-0 mr-5 text-center align-self-center">
+            Kids Aloud İngilizce Anaokulları, 3-6 yaş grubu çocuklara anaokulunu bitireceği döneme kadar B1 seviyede İngilizce’yi hiç
+            unutmayacağı biçimde öğretmeyi temel amaç olarak belirlemiştir. Anaokullarımız da Avrupa Birliği normlarına uygun
+            İngilizce eğitimi verilmekte ve bu eğitim süreci çocuklarımıza verilen Avrupa Dil Portfolyosu ile belgelenmektedir.
+          </p>
         </div>
         <div class="col-lg-6">
           <iframe src="https://www.youtube.com/embed/p9D-3isKS-4"></iframe>
@@ -275,52 +292,55 @@
     </div>
   </section>
 
-<!-- TESTIMONIALS -->
+  <!-- TESTIMONIALS -->
   <section class="testimonials">
     <h2 class="display-4 mb-3 text-center section__title">
       <span class="text-success">V</span><span class="text-danger">E</span><span class="text-primary">L</span><span class="text-primary">İ</span><span
         class="text-info">L</span><span class="text-danger">E</span><span class="text-success">R</span><span class="text-danger">İ</span><span
-        class="text-primary">M</span><span class="text-danger">İ</span><span class="text-success">Z</span><span class="text-ifo">İ</span><span class="text-success">N</span> <span class="text-danger">G</span><span class="text-primary">Ö</span><span class="text-success">R</span><span
-          class="text-info">Ü</span><span class="text-danger">Ş</span><span class="text-success">L</span><span class="text-ifo">E</span><span
-          class="text-primary">R</span><span class="text-danger">İ</span>
+        class="text-primary">M</span><span class="text-danger">İ</span><span class="text-success">Z</span><span class="text-ifo">İ</span><span
+        class="text-success">N</span> <span class="text-danger">G</span><span class="text-primary">Ö</span><span class="text-success">R</span><span
+        class="text-info">Ü</span><span class="text-danger">Ş</span><span class="text-success">L</span><span class="text-ifo">E</span><span
+        class="text-primary">R</span><span class="text-danger">İ</span>
     </h2>
-    <div class="testimonials__background py-5">
+    <div class="testimonials__background px-3 py-5">
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-6 mx-auto">
             <div class="testimonials__carousel rounded border border-success">
               <blockquote class="blockquote px-4 py-3 mt-3">
-                <p class="mb-0 text-center">Nerde ne yapıyor olursak olalım, çocuğumuzu en önemli varlıgımızı sizlere emanet ettigimiz andan
-                  itibaren gözümüzü arkada bırakmadınız. Onlarla en az bizim kadar güzel ilgilenip onlara okul olmaktan daha cok sıcacık bir yuva ve
-                  aile olduğunuz. Daha dile getiremediğim bütün güzellikleriniz için kalpten teşekkürler...</p>
+                <p class="mb-0 text-center">Nerde ne yapıyor olursak olalım, çocuğumuzu en önemli varlıgımızı sizlere emanet
+                  ettigimiz andan itibaren gözümüzü arkada bırakmadınız. Onlarla en az bizim kadar güzel ilgilenip onlara
+                  okul olmaktan daha cok sıcacık bir yuva ve aile olduğunuz. Daha dile getiremediğim bütün güzellikleriniz
+                  için kalpten teşekkürler...</p>
                 <footer class="blockquote-footer text-right pb-0"><cite title="Source Title">Şefika Demirci</cite></footer>
               </blockquote>
               <blockquote class="blockquote px-4 py-4 mt-4">
-                <p class="mb-0 text-center">Ulaş Ata'ya gösterdiğiniz sevgi, ilgi, alaka,özveri için çok ama çok teşekkür ederim. Ne kadar
-                  doğru bir tercih yapmışız. Ailenize dahil olarak hiç bir zaman gözüm arkada kalmadı. Emekleriniz için teşekkür
-                  ediyorum. Yeni dönemde görüşmek dileğiyle hepinizi çok seviyorum...</p>
+                <p class="mb-0 text-center">Ulaş Ata'ya gösterdiğiniz sevgi, ilgi, alaka,özveri için çok ama çok teşekkür
+                  ederim. Ne kadar doğru bir tercih yapmışız. Ailenize dahil olarak hiç bir zaman gözüm arkada kalmadı. Emekleriniz
+                  için teşekkür ediyorum. Yeni dönemde görüşmek dileğiyle hepinizi çok seviyorum...</p>
                 <footer class="blockquote-footer text-right"><cite title="Source Title">Serap Duran</cite></footer>
               </blockquote>
               <blockquote class="blockquote px-4 py-4 mx-auto">
-                <p class="mb-0 text-center">Nerde ne yapıyor olursak olalım, çocuğumuzu en önemli varlıgımızı sizlere emanet ettigimiz
-                  andan itibaren gözümüzü arkada bırakmadınız. Onlarla en az bizim kadar güzel ilgilenip onlara okul olmaktan daha cok
-                  sıcacık bir yuva ve aile olduğunuz. Daha dile getiremediğim bütün güzellikleriniz için kalpten teşekkürler...</p>
+                <p class="mb-0 text-center">Nerde ne yapıyor olursak olalım, çocuğumuzu en önemli varlıgımızı sizlere emanet
+                  ettigimiz andan itibaren gözümüzü arkada bırakmadınız. Onlarla en az bizim kadar güzel ilgilenip onlara
+                  okul olmaktan daha cok sıcacık bir yuva ve aile olduğunuz. Daha dile getiremediğim bütün güzellikleriniz
+                  için kalpten teşekkürler...</p>
                 <footer class="blockquote-footer text-right pb-0"><cite title="Source Title">Şefika Demirci</cite></footer>
               </blockquote>
               <blockquote class="blockquote px-4 py-4 mx-auto">
-                <p class="mb-0 text-center">Ulaş Ata'ya gösterdiğiniz sevgi, ilgi, alaka,özveri için çok ama çok teşekkür ederim. Ne kadar
-                  doğru bir tercih yapmışız. Ailenize dahil olarak hiç bir zaman gözüm arkada kalmadı. Emekleriniz için teşekkür ediyorum.
-                  Yeni dönemde görüşmek dileğiyle hepinizi çok seviyorum...</p>
+                <p class="mb-0 text-center">Ulaş Ata'ya gösterdiğiniz sevgi, ilgi, alaka,özveri için çok ama çok teşekkür
+                  ederim. Ne kadar doğru bir tercih yapmışız. Ailenize dahil olarak hiç bir zaman gözüm arkada kalmadı. Emekleriniz
+                  için teşekkür ediyorum. Yeni dönemde görüşmek dileğiyle hepinizi çok seviyorum...</p>
                 <footer class="blockquote-footer text-right"><cite title="Source Title">Serap Duran</cite></footer>
               </blockquote>
             </div>
           </div>
         </div>
       </div>
-    </div>   
+    </div>
   </section>
 
-<!-- MAIN-FOOTER -->
+  <!-- MAIN-FOOTER -->
   <footer class="pt-2 main-footer text-white">
     <div class="container d-flex justify-content-between align-items-center main-footer__container">
       <p class="mb-3 "><a href="https://www.facebook.com/kidsaloudbatikent"><i class="fab fa-facebook-square fa-2x text-white"></i></a></p>
@@ -350,13 +370,13 @@
     $('.carousel').carousel();
 
     //Programs carousel
-    var slideNumberOne = function() {
+    var slideNumberOne = function () {
       $('.programs__carousel').slick({
         infinite: true,
         autoplay: true,
         speed: 300,
         slidesToShow: 1
-      });  
+      });
     };
 
     var slideNumberTwo = function () {
@@ -378,7 +398,7 @@
     };
 
     if ($(window).width() <= 576) {
-      slideNumberOne(); 
+      slideNumberOne();
     } else if ($(window).width() <= 992) {
       slideNumberTwo();
     } else {
@@ -395,12 +415,12 @@
     }); 
   </script>
 </body>
+
 </html>
- 
+
 <!-- <span class="text-success">K</span><span class="text-danger">i</span><span class="text-primary">d</span><span class="text-danger">s</span> <span
 class="text-info">A</span><span class="text-danger">l</span><span class="text-success">o</span><span class="text-warning">u</span> <span
 class="text-primary">d</span> <span class="text-danger">İ</span><span class="text-success">n</span><span class="text-warning">g</span></span><span class="text-danger">i</span><span class="text-info">i</span><span class="text-warning">z</span><span class="text-success">c</span><span
 class="text-danger">e</span> <span class="text-primary">A</span><span class="text-warning">n</span><span class="text-success">o</span> <span
 class="text-info">k</span><span class="text-success">u</span><span class="text-danger">l</span><span class="text-primary">l</span><span class="text-warning">a</span><span
 class="text-success">r</span><span class="text-info">ı</span><span class="text-success">;</span><span class="text-danger">İ</span><span class="text-primary">Y</span><span class="text-warning">O</span><span class="text-success">R</span><span class="text-danger">U</span><span class="text-success">Z</span> -->
- 
