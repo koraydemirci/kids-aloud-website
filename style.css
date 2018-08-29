@@ -5,11 +5,12 @@ html, body {
 }
 
 body {
+  font-size: 1.125rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
   position: relative;
 }
 .main-nav {
-  /* background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); */
-  /* background-color: #833471; */
   background: linear-gradient(to right, #ad5389, #3c1053);
 }
 
@@ -23,7 +24,6 @@ body {
 }
 
 /* INDEX */
-
 .carousel__item--1 {
   background: url('img/index/main-carousel-1.jpg');
 }
@@ -41,7 +41,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 
 .carousel__title {
   background: rgba(255, 255, 255, 0.8);
@@ -74,6 +73,10 @@ body {
 iframe {
   width: 100%;
   height: 320px;
+}
+
+.testimonials {
+  color:  #000;
 }
 
 .testimonials__background {
@@ -126,10 +129,3 @@ iframe {
   }
 }
 
-.gmap {
-  height: 500px;
-}
-
-.kor {
-  background-color: #fff;
-}
