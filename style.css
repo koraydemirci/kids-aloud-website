@@ -63,10 +63,12 @@ body {
 }
 
 .programs__carousel {
+  margin: auto;
   width: 90%;
 }
 
 .programs__card {
+  margin: auto;
   width: 90%;
 }
 
